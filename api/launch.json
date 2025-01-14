@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Poetry Flask Debug",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/app.py",  // 替换为实际 Flask 启动脚本
+            "console": "integratedTerminal",
+            "justMyCode": false,
+            "env": {
+                "FLASK_APP": "app.py",  // 替换为你的 Flask 应用入口文件
+                "FLASK_ENV": "development"  // 开启 Flask 的 Debug 模式
+            },
+            "args": [
+                "run",
+                "--host=0.0.0.0",
+                "--port=5001"
+            ],
+            "pythonPath": "./api/.venv/bin/python"  // 替换为 Poetry 虚拟环境路径
+        }
+    ]
+}

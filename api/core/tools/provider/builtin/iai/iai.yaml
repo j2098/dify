@@ -1,0 +1,31 @@
+identity:
+  author: IAI
+  name: iai
+  label:
+    en_US: IAI
+    zh_Hans: IAI
+  description:
+    en_US: IAI is a tool for generating images which can be deployed locally.
+    zh_Hans: IAI 是一个可以在本地部署的图片生成的工具。
+  icon: icon.png
+  tags:
+    - image
+credentials_for_provider:
+  base_url:
+    type: text-input
+    required: true
+    label:
+      en_US: The URL of IAI Server
+      zh_Hans: IAI服务器的URL
+    placeholder:
+      en_US: Please input your IAI server's Base URL
+      zh_Hans: 请输入你的 IAI 服务器的 Base URL
+  api_key:
+    type: text-input
+    required: true
+    label:
+      en_US: The API Key of IAI Server
+      zh_Hans: IAI服务器的API Key
+    placeholder:
+      en_US: Please input your IAI server's API Key
+      zh_Hans: 请输入你的 IAI 服务器的 API Key

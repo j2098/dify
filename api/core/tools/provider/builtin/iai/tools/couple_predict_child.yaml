@@ -1,0 +1,20 @@
+identity:
+  name: couple_predict_child
+  author: IAI
+  label:
+    en_US: Couple Predict Child
+    zh_Hans: 父母照片预测孩子
+description:
+  human:
+    en_US: Run IAI generate child from parents' photos
+    zh_Hans: 运行IAI根据父母照片生成AI宝宝
+  llm: Run IAI couple_predict_child.
+parameters:
+  - name: images
+    type: files
+    multiple: true
+    label:
+      en_US: Images
+      zh_Hans: 图片
+    llm_description: The images of the father and mother.
+    form: llm
