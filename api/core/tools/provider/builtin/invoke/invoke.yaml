@@ -1,0 +1,31 @@
+identity:
+  author: Invoke  
+  name: invoke
+  label:
+    en_US: Invoke
+    zh_Hans: 调用
+  description:
+    en_US: Invoke is a tool for invoking external APIs.
+    zh_Hans: Invoke 是一个可以调用外部 API 的工具。
+  icon: icon.png
+  tags:
+    - utilities
+credentials_for_provider:
+  base_url:
+    type: text-input
+    required: true
+    label:
+      en_US: The URL of Invoke Server
+      zh_Hans: 调用服务器的URL
+    placeholder:
+      en_US: Please input your Invoke server's Base URL
+      zh_Hans: 请输入你的调用服务器的 Base URL
+  api_key:
+    type: text-input
+    required: true
+    label:
+      en_US: The API Key of Invoke Server
+      zh_Hans: 调用服务器的 API Key
+    placeholder:
+      en_US: Please input your Invoke server's API Key
+      zh_Hans: 请输入你的调用服务器的 API Key

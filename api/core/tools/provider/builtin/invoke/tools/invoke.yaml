@@ -1,0 +1,25 @@
+identity:
+  name: invoke
+  author: Invoke
+  label:
+    en_US: Invoke
+    zh_Hans: Invoke
+description:
+  human:
+    en_US: Run Invoke
+    zh_Hans: 运行Invoke
+  llm: Run Invoke
+parameters:
+  - name: images
+    type: files
+    multiple: true
+    label:
+      en_US: Images
+      zh_Hans: 图片
+    form: llm
+  - name: text
+    type: string
+    label:
+      en_US: Text
+      zh_Hans: 文本
+    form: llm
